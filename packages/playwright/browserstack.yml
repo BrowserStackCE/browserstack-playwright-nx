@@ -1,0 +1,5 @@
+
+buildName: "Sample Tests"
+projectName: "Browserstack Sample Project"
+testObservability: true
+browserstackAutomation: false
