@@ -1,0 +1,9 @@
+{
+    "executors": {
+      "playwright": {
+        "implementation": "./packages/playwright/src/executors/playwright/playwright",
+        "schema": "./packages/playwright/src/executors/playwright/schema.json",
+        "description": "Run Playwright tests."
+      }
+    }
+  }

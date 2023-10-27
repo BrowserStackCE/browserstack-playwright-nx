@@ -1,0 +1,30 @@
+{
+  "name": "playwright",
+  "$schema": "../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "playwright/src",
+  "projectType": "application",
+  "targets": {
+    "e2e:bstack": {
+      "executor": "./:playwright",
+      "outputs": ["{workspaceRoot}/dist/.playwright/playwright"],
+      "options": {
+        "config": "packages/playwright/playwright.config.ts",
+        "browserstackConfig":"packages/playwright/browserstack.yml"
+      }
+    },
+    "e2e:local":{
+      "executor": "@nx/playwright:playwright",
+      "outputs": ["{workspaceRoot}/dist/.playwright/playwright"],
+      "options": {
+        "config": "packages/playwright/playwright.config.ts"
+      }
+    },
+    "lint": {
+      "executor": "@nx/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": ["packages/playwright/**/*.{js,ts}"]
+      }
+    }
+  }
+}
