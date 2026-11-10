@@ -1,6 +1,6 @@
 <div style="display: flex; gap: 1rem; align-items: center;">
 <h1>BrowserStack SDK + Playwright + NX</h1>
-<img src="https://www.browserstack.com/blog/content/images/2019/06/Browserstack-logo-white-02-4.png" width="50" height="50" style="object-fit: contain;"  />
+<img src="https://www.browserstack.com/images/static/header-logo.jpg" height="40" style="object-fit: contain;"  />
 <img src="https://seeklogo.com/images/P/playwright-logo-22FA8B9E63-seeklogo.com.png" width="50" height="50" style="object-fit: contain;" />
 <img src="https://seeklogo.com/images/N/nx-logo-8EB5A23B44-seeklogo.com.png" width="50" height="50" style="object-fit: contain;" />
 </div>
